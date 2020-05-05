@@ -25,7 +25,7 @@ SECRET_KEY = '0r9s=y0@smv1&06oa(dps-o91(pha__=@fr73xfx#1c!2+w&2)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [.herokuapp.com]
 
 
 LOGIN_REDIRECT_URL = "test"
