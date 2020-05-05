@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '0r9s=y0@smv1&06oa(dps-o91(pha__=@fr73xfx#1c!2+w&2)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = [.herokuapp.com]
+ALLOWED_HOSTS = ['.herokuapp.com']
 
 
 LOGIN_REDIRECT_URL = "test"
